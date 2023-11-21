@@ -106,12 +106,12 @@ button[disabled] {
   width: 100%;
   padding-top: 15px;
   padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
+  padding-right: 185px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
   border: 2px dashed #c0c7cf;
   border-radius: 6px;
   resize: none;
