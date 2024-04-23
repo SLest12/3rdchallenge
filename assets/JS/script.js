@@ -30,20 +30,20 @@ function generatePassword() {
   }
 
   var useUpper = confirm('Would you like to use UPPER case letters in your password?');
-  console.log(useUpper)
+  //console.log(useUpper)
   if(useUpper == true) {
     possibleCharacters = possibleCharacters + uppercase;
   }
 
 
  var useLower = confirm('Would you like to use LOWER case letters in your password?');
- console.log(useLower)
+ //console.log(useLower)
   if(useLower == true) {
 possibleCharacters = possibleCharacters + lowercase;
  }
 
  var useNumber = confirm('Would you like to use NUMBERS case letters in your password?');
- console.log(useLower)
+ //console.log(useLower)
   if(useNumber == true) {
 possibleCharacters = possibleCharacters + Number;
  }
@@ -56,7 +56,7 @@ possibleCharacters = possibleCharacters + Number;
 // possibleCharacters = possibleCharacters + special;
 // }
   
-  console.log("Possible Characters Dataset: ", possibleCharacters);
+ // console.log("Possible Characters Dataset: ", possibleCharacters);
   // Generate password
   var generate = "";
   for (var i = 0; i < length; i++) {
